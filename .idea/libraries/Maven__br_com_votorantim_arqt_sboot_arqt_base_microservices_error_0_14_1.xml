@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: br.com.votorantim.arqt:sboot-arqt-base-microservices-error:0.14.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/br/com/votorantim/arqt/sboot-arqt-base-microservices-error/0.14.1/sboot-arqt-base-microservices-error-0.14.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/br/com/votorantim/arqt/sboot-arqt-base-microservices-error/0.14.1/sboot-arqt-base-microservices-error-0.14.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/br/com/votorantim/arqt/sboot-arqt-base-microservices-error/0.14.1/sboot-arqt-base-microservices-error-0.14.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

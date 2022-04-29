@@ -1,0 +1,7 @@
+br/com/trampador/orch/dominio/camel/processor/DominioProcessor.class
+br/com/trampador/orch/dominio/service/DominioService.class
+br/com/trampador/orch/dominio/exception/DominioException.class
+br/com/trampador/orch/dominio/camel/CamelContextWrapper.class
+br/com/trampador/orch/dominio/port/DominioRepository.class
+br/com/trampador/orch/dominio/domain/Dominio.class
+br/com/trampador/orch/dominio/camel/router/DominioRouter.class

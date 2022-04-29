@@ -1,0 +1,7 @@
+/Users/flavio.rodrigues/orquestrador/application/src/main/java/br/com/trampador/orch/dominio/presentation/DominioController.java
+/Users/flavio.rodrigues/orquestrador/application/src/main/java/br/com/trampador/orch/dominio/presentation/representation/DominioRepresentation.java
+/Users/flavio.rodrigues/orquestrador/application/src/main/java/br/com/trampador/orch/dominio/config/OpenApiConfiguration.java
+/Users/flavio.rodrigues/orquestrador/application/src/main/java/br/com/trampador/orch/dominio/mapper/DominioMapper.java
+/Users/flavio.rodrigues/orquestrador/application/src/main/java/br/com/trampador/orch/dominio/Application.java
+/Users/flavio.rodrigues/orquestrador/application/src/main/java/br/com/trampador/orch/dominio/infrastructure/DominioRepositoryImpl.java
+/Users/flavio.rodrigues/orquestrador/application/src/main/java/br/com/trampador/orch/dominio/config/DominioConfiguration.java

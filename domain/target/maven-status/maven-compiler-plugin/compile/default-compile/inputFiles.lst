@@ -1,0 +1,7 @@
+/Users/flavio.rodrigues/orquestrador/domain/src/main/java/br/com/trampador/orch/dominio/camel/processor/DominioProcessor.java
+/Users/flavio.rodrigues/orquestrador/domain/src/main/java/br/com/trampador/orch/dominio/exception/DominioException.java
+/Users/flavio.rodrigues/orquestrador/domain/src/main/java/br/com/trampador/orch/dominio/port/DominioRepository.java
+/Users/flavio.rodrigues/orquestrador/domain/src/main/java/br/com/trampador/orch/dominio/camel/CamelContextWrapper.java
+/Users/flavio.rodrigues/orquestrador/domain/src/main/java/br/com/trampador/orch/dominio/camel/router/DominioRouter.java
+/Users/flavio.rodrigues/orquestrador/domain/src/main/java/br/com/trampador/orch/dominio/domain/Dominio.java
+/Users/flavio.rodrigues/orquestrador/domain/src/main/java/br/com/trampador/orch/dominio/service/DominioService.java

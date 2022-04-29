@@ -1,0 +1,42 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: sboot-orquestrador-orch-orch-dominio
+    description: Serviço Stateless Dominio
+  main:
+    banner-mode: "off"
+    allow-bean-definition-overriding: true
+  beaninfo:
+    ignore: true
+server:
+  address: 0.0.0.0
+  port: 8080
+  servlet:
+    session:
+      cookie:
+        http-only: true
+        secure: true
+  error:
+    whitelabel:
+      enabled: false
+management:
+  server:
+    port: 9090
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: info, health, metrics, prometheus
+---
+# configurações para desenvolvimento local
+spring:
+  profiles: local
+---
+# configurações para ambientes e testes integrados
+spring:
+  profiles: des,qa,uat,prd
+logging:
+  config: file:/usr/etc/log/logback-spring.xml

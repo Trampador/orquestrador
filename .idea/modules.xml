@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sboot-orquestrador-orch-orch-dominio.iml" filepath="$PROJECT_DIR$/sboot-orquestrador-orch-orch-dominio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/sboot-orquestrador-orch-orch-dominio-application.iml" filepath="$PROJECT_DIR$/application/sboot-orquestrador-orch-orch-dominio-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/sboot-orquestrador-orch-orch-dominio-common.iml" filepath="$PROJECT_DIR$/common/sboot-orquestrador-orch-orch-dominio-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/sboot-orquestrador-orch-orch-dominio-domain.iml" filepath="$PROJECT_DIR$/domain/sboot-orquestrador-orch-orch-dominio-domain.iml" />
+    </modules>
+  </component>
+</project>

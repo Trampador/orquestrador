@@ -1,0 +1,7 @@
+br/com/trampador/orch/dominio/Application.class
+br/com/trampador/orch/dominio/mapper/DominioMapper.class
+br/com/trampador/orch/dominio/infrastructure/DominioRepositoryImpl.class
+br/com/trampador/orch/dominio/presentation/DominioController.class
+br/com/trampador/orch/dominio/presentation/representation/DominioRepresentation.class
+br/com/trampador/orch/dominio/config/OpenApiConfiguration.class
+br/com/trampador/orch/dominio/config/DominioConfiguration.class

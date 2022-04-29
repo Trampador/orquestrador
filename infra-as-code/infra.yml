@@ -1,0 +1,59 @@
+spec_version: "1.0"
+platform: multi
+
+# Configmaps
+# Sessão utilizada para definir variaveis de ambiente
+configmap:
+  variables:
+    SPRING_PROFILES_ACTIVE:
+      local: local
+      des: des
+      qa: qa
+      uat: uat
+      prd: prd
+  files:
+    logback-spring.xml:
+      mountPath: /usr/etc/log
+      environments:
+        local: arquivos/local/logback-spring.xml
+        des: arquivos/des/logback-spring.xml
+        qa: arquivos/qa/logback-spring.xml
+        uat: arquivos/uat/logback-spring.xml
+        prd: arquivos/prd/logback-spring.xml
+
+# Esta seção é utilizada para definir os parâmetros de livenessProbe e readinessProbe do componente.
+probes:
+  liveness:
+    failureThreshold: 30
+    httpGet:
+      path: "/actuator/health"
+      port: 9090
+      scheme: "HTTP"
+    initialDelaySeconds: 420
+    periodSeconds: 10
+    successThreshold: 1
+    timeoutSeconds: 3
+  readiness:
+    failureThreshold: 3
+    httpGet:
+      path: "/actuator/health"
+      port: 9090
+      scheme: "HTTP"
+    initialDelaySeconds: 3
+    periodSeconds: 3
+    successThreshold: 1
+    timeoutSeconds: 3
+
+globalVolumes:
+  - secretMount:
+      name: global-java-cacerts
+      mountPath: /opt/java/openjdk/lib/security/cacerts
+      subPath: cacerts
+
+globalEnvFrom:
+  secretNames:
+    - global-ldap-bvnet
+  configMapNames:
+    - global-container
+    - global-ldap-bvnet
+    - global-proxy-disabled

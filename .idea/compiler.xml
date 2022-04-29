@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sboot-orquestrador-orch-orch-dominio-common" />
+        <module name="sboot-orquestrador-orch-orch-dominio-application" />
+        <module name="sboot-orquestrador-orch-orch-dominio-domain" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sboot-orquestrador-orch-orch-dominio" target="11" />
+      <module name="sboot-orquestrador-orch-orch-dominio-application" target="11" />
+      <module name="sboot-orquestrador-orch-orch-dominio-common" target="11" />
+      <module name="sboot-orquestrador-orch-orch-dominio-domain" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sboot-orquestrador-orch-orch-dominio-application" options="-parameters" />
+      <module name="sboot-orquestrador-orch-orch-dominio-common" options="-parameters" />
+      <module name="sboot-orquestrador-orch-orch-dominio-domain" options="-parameters" />
+    </option>
+  </component>
+</project>
